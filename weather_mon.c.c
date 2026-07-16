@@ -455,13 +455,13 @@ int main()
 	spi_init();
 	i2c_init();
 	
-		/**LCD_str("     REAL TIME WEATHER MONITORING SYSTEM");
+		LCD_str("     REAL TIME WEATHER MONITORING SYSTEM");
 		
 	for(i=0; i<40; i++)
 	{
 		LCD_COMMAND(0X18);
 		delay(150);
-	}**/
+	}
 	
 	while(1)
 	{
