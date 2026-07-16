@@ -483,6 +483,7 @@ int main()
 		if(T1TC>3600)
 		{
 			T1TCR=0X03;
+			T1TCR=0X00;
 		}
 		if(f > 35.0 && T1TC == 0)
 		{
